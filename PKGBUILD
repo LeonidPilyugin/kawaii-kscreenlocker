@@ -1,7 +1,7 @@
 # Maintainer: Leonid Pilyugin <l.pilyugin04@gmail.com>>
 
 pkgname=kawaii-kscreenlocker
-pkgver=5.25.4
+pkgver=5.25.5
 pkgrel=1
 pkgdesc='Library and components for kawaii secure lock screen architecture'
 groups=(kawaii)
