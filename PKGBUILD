@@ -1,7 +1,7 @@
 # Maintainer: Leonid Pilyugin <l.pilyugin04@gmail.com>>
 
 pkgname=kawaii-kscreenlocker
-pkgver=5.26.0
+pkgver=5.26.1
 pkgrel=1
 pkgdesc='Library and components for kawaii secure lock screen architecture'
 groups=(kawaii)
@@ -11,11 +11,11 @@ license=('LGPL')
 depends=(layer-shell-qt kidletime kwayland kdeclarative perl lightdm lightdm-webkit2-greeter)
 makedepends=(extra-cmake-modules kdoctools kcmutils libxcursor)
 optdepends=('kcmutils: configuration module')
-provides=('kscreenlocker=5.26.0')
+provides=('kscreenlocker=5.26.1')
 conflicts=('kscreenlocker')
 source=("https://download.kde.org/stable/plasma/$pkgver/kscreenlocker-$pkgver.tar.xz"
         "$pkgname-$pkgver.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
-sha256sums=('e412b2cf65d69f80a866d0332397b494243068e270225f7c95de227b913ec73d'
+sha256sums=('de315b9cdf0309b1e1ea0b57a79aa30b42493742604f17ae003e7d8f4f76867d'
             '05fbcd013d9bfd5568b633df7fbd67c3e75bfa4740785e45141679e0d585a604')
 
 build() {
