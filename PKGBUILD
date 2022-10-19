@@ -11,7 +11,7 @@ license=('LGPL')
 depends=(layer-shell-qt kidletime kwayland kdeclarative perl lightdm lightdm-webkit2-greeter)
 makedepends=(extra-cmake-modules kdoctools kcmutils libxcursor)
 optdepends=('kcmutils: configuration module')
-provides=('kscreenlocker=5.26.0')
+provides=('kscreenlocker=5.26.1')
 conflicts=('kscreenlocker')
 source=("https://download.kde.org/stable/plasma/$pkgver/kscreenlocker-$pkgver.tar.xz"
         "$pkgname-$pkgver.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
